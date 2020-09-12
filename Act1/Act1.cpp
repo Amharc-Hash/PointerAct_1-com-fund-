@@ -7,7 +7,7 @@ char toupper(char*p);
 
 int main()
 {
-	char* p, str[50];
+	char* p, str[100];
 	p = str;
 	scanf("%[^\n]s", str);
 	while (*p != '\0') {
